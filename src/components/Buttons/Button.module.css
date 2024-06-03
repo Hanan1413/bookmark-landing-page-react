@@ -1,0 +1,16 @@
+.button {
+    padding: 10px 25px;
+    border: none;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+
+  .blueBtn {
+    background-color: var(--soft-blue);
+  }

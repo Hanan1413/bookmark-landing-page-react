@@ -1,0 +1,36 @@
+.text{
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    color: var(--grayish-blue);
+    padding-bottom: 50px;
+
+}  
+
+
+.title{
+    text-align: center;
+    margin: auto auto 30px auto;
+    color: var(--very-dark-blue);
+    
+   }
+
+
+
+@media(min-width:542px){
+    
+.title{
+    text-align: center;
+    margin: auto auto 30px auto;
+    color: var(--very-dark-blue);
+    
+   }
+   .text{
+       max-width: 50%;
+       text-align: center;
+       margin: auto;
+       color: var(--grayish-blue);
+       
+   }   
+
+}

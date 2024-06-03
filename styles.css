@@ -1,0 +1,244 @@
+:root {
+    --soft-blue: hsl(231, 69%, 60%);
+    --soft-red: hsl(0, 94%, 66%);
+    --grayish-blue: hsl(229, 8%, 60%);
+    --very-dark-blue: hsl(229, 31%, 21%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background: var(--primary-color);
+    padding: 20px 0;
+    position: relative;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: var(--btn-color);
+}
+
+nav {
+    display: none;
+}
+.mobile-header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.menu{
+    display: none;
+    height: 100vh;
+    background-color: hsla(229, 31%, 21%, 0.795);
+
+    z-index: -1;
+}
+
+
+.mobile-nav{
+    display: none;
+}
+#mobile-nav.active{
+    display: block;
+}
+.close{
+    background-image: url('images/icon-close.svg');
+    height: 20px;
+    width: 20px;
+}
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background: var(--btn-color);
+}
+
+
+#mobile-nav ul li a {
+    color: wheat;
+}
+
+main {
+    padding: 40px 0;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.hero .cta-buttons .btn {
+    margin: 10px;
+    background: var(--secondary-color);
+    color: var(--btn-color);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.features, .download, .faq {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.features .tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.tab-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.tab-button.active {
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.tab-content {
+    display: none;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.browsers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.browser {
+    flex: 1 1 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.browser img {
+    max-width: 100px;
+}
+
+.faq-item {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.faq-question {
+    background: var(--primary-color);
+    color: var(--btn-color);
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px 20px;
+    background: var(--background-color);
+}
+
+footer {
+    background: var(--primary-color);
+    color: var(--btn-color);
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer input[type="email"] {
+    padding: 10px;
+    margin: 5px;
+    flex: 1;
+}
+
+footer .btn {
+    padding: 10px 20px;
+    margin: 5px;
+    background: var(--secondary-color);
+    border: none;
+    color: var(--btn-color);
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    #mobile-nav{
+        display: none;
+    }
+    nav {
+        display: block;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin-left: 20px;
+    }
+
+    nav ul li a {
+        color: var(--very-dark-blue);
+        text-decoration: none;
+    }
+
+    .hero .cta-buttons {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1024px) {
+    .features .tabs {
+        justify-content: flex-start;
+    }
+}
