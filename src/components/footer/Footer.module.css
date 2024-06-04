@@ -1,0 +1,29 @@
+.footer {
+  background-color: var(--very-dark-blue);
+  height: 88px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .twitter img, .facebook img{
+} */
+.footerLinks {
+  display: flex;
+}
+.footerLinks li {
+  margin-left: 20px;
+}
+
+.footerLinks li a {
+  color: var(--grayish-blue);
+}
+.socialLinks {
+  display: flex;
+}
+
+.socialLinks img {
+  margin-left: 50px;
+  width: 50%;
+  height: 50%;
+}

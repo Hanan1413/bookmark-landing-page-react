@@ -10,15 +10,13 @@ function BookMarkManger() {
           <BookmarkCard
             title="A simple Bookmark Manager"
             description=" Organize your bookmarks however you like. Our simple drag-and-drop
-        interface gives you complete control over how you manage your favourite
-        sites."
+                interface gives you complete control over how you manage your favourite
+                 sites."
             fontSize={styles.fontSize}
           />
         </div>
         <div className={styles.heroImage}>
-          {/* <img src={image} alt={image} className={styles.bookImage} /> */}
           <div className={styles.bg}></div>
-
         </div>
       </div>
     </>

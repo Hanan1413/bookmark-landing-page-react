@@ -1,9 +1,9 @@
-import { pageLinks } from "../../data";
+// import { pageLinks } from "../../data";
 import styles from "./Nav.module.css";
 import logo from "../../images/logo-bookmark.svg";
 import Button from "../Buttons/Button";
 
-function Nav() {
+function Nav({pageLinks}) {
   return (
     <nav className={styles.desktopNav}>
       <img src={logo} alt="" className={styles.logo} />
