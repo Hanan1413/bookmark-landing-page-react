@@ -6,6 +6,7 @@ import BookMarkManger from "../components/bookmarkmanger/BookMarkManger";
 import Extensions from "../components/extension/Extensions";
 import Footer from "../components/footer/Footer";
 import { tabs, extension, pageLinks } from "../data";
+import Email from "../components/email/Email";
 
 function HomePage() {
   return (
@@ -17,6 +18,7 @@ function HomePage() {
         <Features tabs={tabs} />
         <Extensions extension={extension} />
       </div>
+      <Email />
       <Footer pageLinks={pageLinks} />
     </>
   );

@@ -4,6 +4,8 @@
   margin: 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
 }
 
 /* .twitter img, .facebook img{
@@ -11,12 +13,19 @@
 .footerLinks {
   display: flex;
 }
+.footerLinks svg{
+
+    margin-right: 30px;
+}
+
+
 .footerLinks li {
   margin-left: 20px;
 }
-
 .footerLinks li a {
-  color: var(--grayish-blue);
+  color: #fff;
+  opacity: 0.9;
+  font-size: 16px;
 }
 .socialLinks {
   display: flex;
@@ -26,4 +35,8 @@
   margin-left: 50px;
   width: 50%;
   height: 50%;
+}
+.footerLogo{
+    fill: #fff;
+
 }

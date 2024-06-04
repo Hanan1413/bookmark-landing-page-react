@@ -1,0 +1,28 @@
+
+
+
+.email{
+    background-color: var( --soft-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 3rem .5rem;
+    color: #fff;
+
+
+}
+.redBtn{
+    background-color: var(--soft-red);
+}
+
+
+@media  (min-width: 540px) {
+   .email{
+    height: 360px;
+    padding: 0;
+   } 
+
+ 
+}
