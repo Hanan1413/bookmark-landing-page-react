@@ -1,10 +1,19 @@
-import styles from './Button.module.css'
+import styles from "./Button.module.css";
 
-
-function Button({text, bgColor}) {
+function Button({ text, bgColor, width, height, marginTop, padding }) {
   return (
-  <button className={`${bgColor} ${styles.button} `}>{text}</button>      
-  )
+    <button
+      style={{
+        width:  width ,
+        height:  height ,
+        marginTop:  marginTop ,
+        padding: padding ,
+      }}
+      className={`${bgColor} ${styles.button} `}
+    >
+      {text}
+    </button>
+  );
 }
 
-export default Button
+export default Button;

@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Extension.module.css";
 import bg from "../../images/bg-dots.svg";
+import Button from "../Buttons/Button";
 
 function Extension({ extension }) {
   return (
@@ -22,7 +23,11 @@ function Extension({ extension }) {
               <h4>{extension.text}</h4>
               <p className={styles.subtext}>{extension.subtext}</p>
               <img src={bg} alt="dot" />
+              <Button  bgColor={styles.blueBtn} marginTop="1.25rem"  padding="1rem" text="Add & Install Extension"/>
+                                                   
+
             </div>
+
           );
         })}
       </div>

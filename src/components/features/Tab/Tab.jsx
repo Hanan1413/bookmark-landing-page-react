@@ -1,7 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import styles from "./Tab.module.css";
-import Text from "../text/Text";
+import Text from "../../text/Text";
+import Button from "../../Buttons/Button";
 
 
 function Tab({ tabs }) {
@@ -43,13 +44,16 @@ function Tab({ tabs }) {
                     />
                   </div>
                   <div className={styles.text}>
-                    <h1>{tab.title}</h1>
-                    <p>{tab.text}</p>
+                    <h1 className={styles.title}>{tab.title}</h1>
+                    <p className={styles.textColor}> {tab.text} </p>
+                    <Button text="more info" bgColor={styles.blueBtn}  />
+
                   </div>
                 </div>
               )
             );
           })}
+
         </div>
       </div>
     </div>

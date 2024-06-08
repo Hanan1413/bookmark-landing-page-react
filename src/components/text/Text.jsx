@@ -5,7 +5,7 @@ function Text({title, text}) {
   return (
     <div>
         <h1 className={styles.title}>{title}</h1>
-        <p className={styles.text}>{text}</p>
+        <p className={`${styles.text} ${styles.textColor}`}>{text}</p>
       
     </div>
   )

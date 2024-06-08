@@ -1,28 +1,54 @@
-
-
-
-.email{
-    background-color: var( --soft-blue);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: fit-content;
-    padding: 3rem .5rem;
-    color: #fff;
-
+.email {
+  background-color: var(--soft-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  padding: 3rem 0.5rem;
+  color: #fff;
+  text-align: center;
 
 }
-.redBtn{
-    background-color: var(--soft-red);
+.redBtn {
+  background-color: var(--soft-red);
+  width: 90%;
+  height:48px;
+
 }
 
 
-@media  (min-width: 540px) {
-   .email{
+input[type="text"] {
+    width: 90%;
+    margin-bottom: 10px;
+    height: 48px;
+
+}
+.join{
+  letter-spacing: .33rem;
+  font-size: .8rem;
+}
+
+@media (min-width: 540px) {
+  .email {
     height: 360px;
     padding: 0;
-   } 
+  }
 
+  input[type="text"] {
+    width: 300px;
+    height: 48px;
+    margin-right: 1rem;
+    padding-left: 1.3rem;
+    border-radius: 6px;
+    border: none;
+    position: relative;
+    z-index: 10;
+  }
+
+  .redBtn{
+    width:126px;
+  }
  
+  
 }

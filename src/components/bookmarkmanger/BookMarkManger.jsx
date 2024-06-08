@@ -1,6 +1,7 @@
 import BookmarkCard from "../bookmark/BookmarkCard";
 import styles from "./BookMark.module.css";
 import image from "../../images/illustration-hero.svg";
+import Button from "../Buttons/Button";
 
 function BookMarkManger() {
   return (

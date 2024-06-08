@@ -13,7 +13,7 @@ function Email() {
   };
   return (
     <div className={styles.email}>
-      <p>35,000+ ALREADY JOINED</p>
+      <p className={styles.join}>35,000+ ALREADY JOINED</p>
       <h2>Stay upp-to-date with what we're doning</h2>
       <form onSubmit={handleSumbit}>
         <input
@@ -21,7 +21,7 @@ function Email() {
           value={input}
           onChange={(e) => setInputvalue(e.target.value)}
         />
-        <Button text="contact us" bgColor={styles.redBtn} />
+        <Button text="contact us" bgColor={styles.redBtn}     />
       </form>
     </div>
   );

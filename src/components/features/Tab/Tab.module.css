@@ -1,3 +1,10 @@
+
+
+.textColor{
+  color: var(--grayish-blue);
+  font-weight: 300;
+}
+
 .btn {
     display: flex;
     justify-content: center;
@@ -28,6 +35,17 @@
   .activeBtn{
     border: 1px solid var(--soft-red);
   }
+
+  .blueBtn{
+    background-color: var(--soft-blue);
+    margin-top: 3.35rem;
+    padding: 1rem 1.56rem;
+}
+.title{
+  color:var( --very-dark-blue)
+
+}
+
   @media (min-width: 500px) {
     .FeaturesContainer {
       display: flex;

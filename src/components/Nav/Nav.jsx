@@ -21,7 +21,7 @@ function Nav({pageLinks}) {
           );
         })}
 
-        <Button text="login" bgColor={styles.redBtn} />
+        <Button text="login" bgColor={styles.redBtn}  padding =".8rem 2.05rem .7rem"/>
       </ul>
     </nav>
   );
