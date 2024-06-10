@@ -28,9 +28,9 @@ function Footer({ pageLinks }) {
           </g>
         </svg>
         {pageLinks.map((link) => {
-          const { href, text } = link;
+          const { href, text, id } = link;
           return (
-            <li>
+            <li key={id}>
               <a href={href}>{text}</a>
             </li>
           );
