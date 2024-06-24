@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-// import Text from "../text/Text";
-import Tab from "../tab/Tab";
 import styles from "./Features.module.css";
+import Tab from '.././tab/Tab'
 
 function Features({ tabs }) {
   return (

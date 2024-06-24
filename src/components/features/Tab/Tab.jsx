@@ -17,7 +17,7 @@ function Tab({ tabs }) {
         <div className={styles.btn}>
           {tabs.map((tab) => {
             // onClick set acivetab to corresponding tabs id
-            
+
             return (
               <button
                 key={tab.id}
