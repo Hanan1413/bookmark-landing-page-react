@@ -13,4 +13,8 @@
 
   .blueBtn {
     background-color: var(--soft-blue);
+    border: 1px soild var(--soft-blue);
+    transition: 0.5s;
   }
+
+  

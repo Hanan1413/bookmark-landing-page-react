@@ -16,8 +16,7 @@
 
 .toggle {
   width: 10%;
-  /* height: 50px; */
-  z-index: 1;
+  z-index: 20;
 
   /* background-color: green; */
 }
@@ -37,8 +36,11 @@
   position: absolute;
 }
 
+
+
+
 .menuContent {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -49,8 +51,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1rem 1rem;
-  /* z-index: 10; */
+  z-index: 10;
+
 }
+
+
+
+ 
+
 
 .menuContent ul {
   display: flex;
@@ -58,7 +66,6 @@
   justify-content: space-between;
   align-items: center;
   height: 50%;
-  /* margin: auto; */
   width: 90%;
   position: relative;
   top: 100px;
@@ -101,6 +108,8 @@ svg {
   width: 25%;
   padding-bottom: 60px;
 }
+
+
 @media (min-width: 600px) {
   .mobileNav {
     display: none;

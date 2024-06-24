@@ -31,20 +31,37 @@
     align-items: center;
   }
   
-  .activeBtn{
-    border: 1px solid var(--soft-red);
-  }
+  /* on Click tab active for button  */
+  
+  
 
   .blueBtn{
     background-color: var(--soft-blue);
     margin-top: 3.35rem;
     padding: 1rem 1.56rem;
+    border: 1px solid var(--soft-blue);
+}
+
+.blueBtn:hover{
+  background-color: transparent;
+  color: var(--soft-blue);
+
 }
 .title{
   color:var( --very-dark-blue)
 
 }
 
+.tabImage{
+  margin-top: 20px;
+}
+.active{
+  border-bottom: 4px solid var(--soft-red);
+}
+
+.tabContent{
+  text-align: center;
+}
   @media (min-width: 500px) {
     .FeaturesContainer {
       display: flex;
@@ -57,12 +74,14 @@
       align-items: center;
       flex-direction: row;
     }
+    
+.tabContent{
+  text-align: left;
+}
     .tabs > div {
       width: 50%;
     }
-    .text {
-      padding: 30px;
-    }
+ 
 
     .btn button {
       width: 90%;
@@ -70,21 +89,22 @@
       background-color: transparent;
       border-bottom: 1px solid rgb(197, 193, 193);
       padding-bottom: 20px;
+      transition: 0.5s;
     }
+   
     .btn {
       flex-direction: row;
       width: 70%;
       margin: auto auto 30px auto;
+      height: 30px;
   
     }
-   
-  
-    /* on Click tab active for button  */
-  
-    .tabActive button{
-      border: 1px solid var(--soft-red);
-  
+    button:hover{
+        border-bottom: 4px solid var(--soft-red); /* This ensures the active tab also has the border */
+      
     }
+  
+    
    
   }
   

@@ -8,25 +8,29 @@
   padding: 3rem 0.5rem;
   color: #fff;
   text-align: center;
-
 }
 .redBtn {
   background-color: var(--soft-red);
+  border: 1px solid var(--soft-red);
   width: 90%;
-  height:48px;
-
+  height: 48px;
 }
 
+.redBtn:hover {
+  background-color: transparent;
+  color: var(--soft-red);
+  background-color: white;
+  transition: 0.5s;
+}
 
 input[type="text"] {
-    width: 90%;
-    margin-bottom: 10px;
-    height: 48px;
-
+  width: 90%;
+  margin-bottom: 10px;
+  height: 48px;
 }
-.join{
-  letter-spacing: .33rem;
-  font-size: .8rem;
+.join {
+  letter-spacing: 0.33rem;
+  font-size: 0.8rem;
 }
 
 @media (min-width: 540px) {
@@ -46,9 +50,7 @@ input[type="text"] {
     z-index: 10;
   }
 
-  .redBtn{
-    width:126px;
+  .redBtn {
+    width: 126px;
   }
- 
-  
 }

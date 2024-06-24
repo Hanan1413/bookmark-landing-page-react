@@ -7,15 +7,29 @@ import tab3 from "./images/illustration-features-tab-3.svg";
 // import logo from "./images/logo-firefox.svg";
 
 export const pageLinks = [
-  { id: 1, href: "#home", text: "FEATURES" },
-  { id: 2, href: "#about", text: "PRICING" },
-  { id: 3, href: "#services", text: "CONTACT" },
+  { id: 1, href: "#features", text: "FEATURES" },
+  { id: 2, href: "#pricing", text: "PRICING" },
+  { id: 3, href: "#email", text: "CONTACT" },
 ];
 
+
+
 export const extension = [
-  { id: 1, icon: chrome, text: "Add T Chrome", subtext: "Minimum Version 62", },
-  {id: 2, icon: firefox, text: "Add to FireFox", subtext: "Minimum Version 55", marginTop:'50px'},
-  { id: 3, icon: opra, text: "Add to Opra", subtext: "Minimum Version 46", marginTop:'100px' },
+  { id: 1, icon: chrome, text: "Add T Chrome", subtext: "Minimum Version 62" },
+  {
+    id: 2,
+    icon: firefox,
+    text: "Add to FireFox",
+    subtext: "Minimum Version 55",
+    marginTop: "50px",
+  },
+  {
+    id: 3,
+    icon: opra,
+    text: "Add to Opra",
+    subtext: "Minimum Version 46",
+    marginTop: "100px",
+  },
 ];
 
 export const tabs = [
@@ -42,26 +56,29 @@ export const tabs = [
   },
 ];
 
-
 export const faqData = [
   {
-    id:1,
+    id: 1,
     question: "What is Bookmark?",
-    answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis."
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.",
   },
   {
-    id:2,
+    id: 2,
     question: "How can I request a new browser?",
-    answer: "Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet."
+    answer:
+      "Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.",
   },
   {
-    id:3,
+    id: 3,
     question: "Is there a mobile app?",
-    answer: "Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin ex et ultricies bibendum."
+    answer:
+      "Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin ex et ultricies bibendum.",
   },
   {
-    id:4,
+    id: 4,
     question: "What about other Chromium browsers?",
-    answer: "Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit."
-  }
+    answer:
+      "Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit.",
+  },
 ];

@@ -5,7 +5,7 @@ import Extension from "./Extension";
 function Extensions({extension}) {
   return (
 
-    <div>
+    <div className="extensions">
       <Text
         title="Download the extension"
         text="We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritze."

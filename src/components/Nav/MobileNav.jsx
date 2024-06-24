@@ -10,10 +10,12 @@ import twitter from "../../images/icon-twitter.svg";
 
 function MobileNav() {
   const [isOpen, setIsOpen] = useState(false);
+
+  const handleButtonClick = () =>{
+      setIsOpen(flase);
+  }
   return (
     <nav className={styles.mobileNav}>
-      {/* <div className={styles.logo}></div> */}
-      {/* <div className={isOpen ?  Image :`${styles.toggle}`} onClick={()=> setIsOpen(!isOpen)}></div> */}
       <div className={styles.logo}>
         {isOpen ? (
           <img src={logoLight} alt="logo" />

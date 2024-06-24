@@ -19,7 +19,9 @@ function BookMarkManger() {
         <div className={styles.heroImage}>
           <div className={styles.bg}></div>
         </div>
+        
       </div>
+
     </>
   );
 }

@@ -5,7 +5,7 @@ import Button from "../Buttons/Button";
 
 function Extension({ extension }) {
   return (
-    <div>
+    <div id="pricing">
       <div className={styles.extensionContaienr}>
         {extension.map((extension) => {
           return (

@@ -13,7 +13,7 @@ function Acoordion({ question, answer }) {
     <>
       <div className={styles.question} onClick={toggleAccordion}>
         {question}
-        <img src={arrowDown} alt="arrow"     className={isOpen ? styles.rotate : styles.arrowDown}
+        <img src={arrowDown} alt="arrow"  className={isOpen ? styles.rotate : styles.arrowDown}
         />
       </div>
       {isOpen && (

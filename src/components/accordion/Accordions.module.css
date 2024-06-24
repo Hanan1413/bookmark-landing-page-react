@@ -34,10 +34,14 @@
   transition: transform 0.3s ease;
 }
 
+
+
 .rotate {
   width: 20px;
   transform: rotate(180deg);
   transition: transform 0.3s ease;
+  fill: red; /* Change to your desired color */
+
 }
 
 .questionBtn{
@@ -48,8 +52,14 @@
 }
 .blueBtn{
     background-color: var(--soft-blue);
+    border: 1px solid var(--soft-blue);
     margin-top: 50px;
     width: 50%;
+    transition: 0.5s;
+}
+.blueBtn:hover{
+   background-color: transparent;
+   color: var(--soft-blue);
 }
 
 /* .icon-arrow[data-v-ec7f0038] {

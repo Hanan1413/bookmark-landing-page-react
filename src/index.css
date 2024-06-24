@@ -12,7 +12,9 @@
 *{
   box-sizing: border-box;
 }
-
+html, body {
+  scroll-behavior: smooth;
+}
 body{
   font-size: 18px;
   font-family: 'Rubik', sans-serif;
@@ -36,13 +38,12 @@ ul li{
 
 .container{
   /* max-width: 1200px; */
-  padding: 0 2rem;
+  padding: 0 1rem;
 
 }
 @media (min-width: 500px) {
   
 .container{
-  /* max-width: 1200px; */
   padding: 0 4rem;
 
 }
