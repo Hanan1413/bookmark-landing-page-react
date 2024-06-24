@@ -8,7 +8,6 @@ function Tab({ tabs }) {
   // show first tabs as defaule
   const [activeTab, setActiveTab] = useState(tabs[0].id);
   return (
-    <div>
       <div className={`${"container"} `}>
         <Text
           title="Features"
@@ -21,7 +20,7 @@ function Tab({ tabs }) {
             return (
               <button
                 key={tab.id}
-                className={`$activeTab ? ${styles.active}:""`}
+                className={`activeTab ? ${styles.active}:""`}
                 onClick={() => setActiveTab(tab.id)}
               >
                 {tab.btn}
@@ -57,7 +56,6 @@ function Tab({ tabs }) {
           })}
         </div>
       </div>
-    </div>
   );
 }
 
