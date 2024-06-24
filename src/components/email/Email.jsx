@@ -5,12 +5,11 @@ import styles from "./Email.module.css";
 function Email() {
   const [input, setInputvalue] = useState("");
 
-  const handleSumbit = (e) => {
-    e.preventDefault();
-    if (input == "") {
-      alert("enter an email adress");
-    }
-  };
+
+  const handleSumbit = (e)=> {
+   e.preventDefault();
+  }
+ 
   return (
     <div className={styles.email} id="email">
       <p className={styles.join}>35,000+ ALREADY JOINED</p>
