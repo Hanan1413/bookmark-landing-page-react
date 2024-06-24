@@ -8,7 +8,6 @@ Welcome to the Bookmark Landing Page project! This repository contains the code 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
 
 
 ## Overview
