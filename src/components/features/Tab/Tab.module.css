@@ -1,110 +1,102 @@
-
-
-.textColor{
+.textColor {
   color: var(--grayish-blue);
   font-weight: 300;
 }
 
 .btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn button {
+  width: 90%;
+  border: none;
+  background-color: transparent;
+  border-top: 1px solid rgb(197, 193, 193);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  position: relative;
+  color: var(--very-dark-blue);
+}
+
+.tabs {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* on Click tab active for button  */
+
+.blueBtn {
+  background-color: var(--soft-blue);
+  margin-top: 3.35rem;
+  padding: 1rem 1.56rem;
+  border: 1px solid var(--soft-blue);
+}
+
+.blueBtn:hover {
+  background-color: transparent;
+  color: var(--soft-blue);
+}
+.title {
+  color: var(--very-dark-blue);
+}
+
+.tabImage {
+  margin-top: 20px;
+}
+.active {
+  border-bottom: 4px solid var(--soft-red);
+}
+
+.tabContent {
+  text-align: center;
+}
+
+button:hover {
+  border-bottom: 4px solid var(--soft-red); /* This ensures the active tab also has the border */
+}
+@media (min-width: 500px) {
+  .FeaturesContainer {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
   }
-  
+  .tabs {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .tabContent {
+    text-align: left;
+  }
+  .tabs > div {
+    width: 50%;
+  }
+
   .btn button {
     width: 90%;
     border: none;
     background-color: transparent;
-    border-top: 1px solid rgb(197, 193, 193);
+    border-bottom: 1px solid rgb(197, 193, 193);
     padding-bottom: 20px;
-    padding-top:20px;
-    position: relative;
-  
+    transition: 0.5s;
   }
-  
-  .tabs {
-    display: flex;
-    gap: 50px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+  .btn {
+    flex-direction: row;
+    width: 70%;
+    margin: auto auto 30px auto;
+    height: 30px;
   }
-  
-  /* on Click tab active for button  */
-  
-  
 
-  .blueBtn{
-    background-color: var(--soft-blue);
-    margin-top: 3.35rem;
-    padding: 1rem 1.56rem;
-    border: 1px solid var(--soft-blue);
-}
-
-.blueBtn:hover{
-  background-color: transparent;
-  color: var(--soft-blue);
-
-}
-.title{
-  color:var( --very-dark-blue)
-
-}
-
-.tabImage{
-  margin-top: 20px;
-}
-.active{
-  border-bottom: 4px solid var(--soft-red);
-}
-
-.tabContent{
-  text-align: center;
-}
-  @media (min-width: 500px) {
-    .FeaturesContainer {
-      display: flex;
-      flex-direction: column;
-    }
-    .tabs {
-      display: flex;
-      gap: 50px;
-      justify-content: center;
-      align-items: center;
-      flex-direction: row;
-    }
-    
-.tabContent{
-  text-align: left;
-}
-    .tabs > div {
-      width: 50%;
-    }
- 
-
-    .btn button {
-      width: 90%;
-      border: none;
-      background-color: transparent;
-      border-bottom: 1px solid rgb(197, 193, 193);
-      padding-bottom: 20px;
-      transition: 0.5s;
-    }
-   
-    .btn {
-      flex-direction: row;
-      width: 70%;
-      margin: auto auto 30px auto;
-      height: 30px;
-  
-    }
-    button:hover{
-        border-bottom: 4px solid var(--soft-red); /* This ensures the active tab also has the border */
-      
-    }
-  
-    
-   
+  button:hover {
+    border-bottom: 4px solid var(--soft-red); /* This ensures the active tab also has the border */
   }
-  
+}
