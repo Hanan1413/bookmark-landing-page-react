@@ -7,7 +7,6 @@ Welcome to the Bookmark Landing Page project! This repository contains the code 
 - [Overview](#overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
 
 
 ## Overview
@@ -26,10 +25,3 @@ The Bookmark Landing Page is a modern, responsive webpage built with React. It h
 - **React**: JavaScript library for building user interfaces.
 - **CSS Modules**: For scoped and maintainable CSS.
 - **JavaScript**: Programming language for interactivity.
-
-## Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/bookmark-landing-page.git
-   cd bookmark-landing-page
